@@ -68,4 +68,4 @@ This project demonstrates the process of building and evaluating a Logistic Regr
 ## References
 - **Scikit-learn Documentation**: [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 - **TF-IDF**: [Understanding TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
-- **Dataset Source**: [Amazon Review Dataset](https://link-to-dataset.com)
+- **Dataset Source**: [Amazon Review Dataset](https://link-to-dataset.com](https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews?resource=download)
