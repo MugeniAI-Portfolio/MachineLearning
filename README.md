@@ -4,7 +4,7 @@
 This project demonstrates the process of building and evaluating a Logistic Regression model for sentiment analysis on Amazon review data. The main objective is to classify reviews as positive, neutral, or negative using text vectorization and machine learning techniques.
 
 ## Dataset
-- **Source**: Amazon review dataset.
+- **Source**: Kaggle.
 - **Features**: Review text, labeled with sentiment.
 - **Classes**: Positive, Neutral, Negative.
 - **Class Distribution**:
