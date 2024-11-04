@@ -1,17 +1,9 @@
-# Sentiment Analysis of Amazon and IMDb Reviews Using Logistic Regression
+# Sentiment Analysis of IMDb Reviews Using Logistic Regression
 
 ## Project Overview
-This project showcases the process of building and evaluating a Logistic Regression model for sentiment analysis on both Amazon and IMDb review datasets. The goal is to classify reviews as positive, neutral, or negative, leveraging text vectorization and machine learning techniques. The project provides insights into how machine learning models can be effectively used to understand customer sentiment and enhance business strategies.
+This project showcases the process of building and evaluating a Logistic Regression model for sentiment analysis on the IMDb review dataset. The goal is to classify reviews as positive or negative, leveraging text vectorization and machine learning techniques. The project provides insights into how machine learning models can be effectively used to understand customer sentiment and enhance business strategies.
 
-## Datasets
-### Amazon Reviews
-- **Source**: Kaggle
-- **Features**: Review text, labeled with sentiment.
-- **Classes**: Positive, Neutral, Negative.
-- **Class Distribution**:
-  - **Before balancing**: Significant imbalance with more positive samples.
-  - **After balancing**: Balanced distribution across all classes.
-
+## Dataset
 ### IMDb Reviews
 - **Source**: [Large Movie Review Dataset (Maas et al., 2011)](https://ai.stanford.edu/~amaas/data/sentiment/)
 - **Features**: 25,000 positive and 25,000 negative reviews for training; additional 25,000 for testing.
@@ -48,9 +40,6 @@ This project showcases the process of building and evaluating a Logistic Regress
 - Confusion Matrix for visual analysis of class performance.
 
 ### Results
-- **Amazon Reviews**:
-  - Overall accuracy: 76%.
-  - Strong performance for positive and negative classes; the neutral class shows room for improvement.
 - **IMDb Reviews**:
   - Validation accuracy: 87.28%.
   - Test accuracy: 84.88%.
@@ -63,8 +52,7 @@ This project showcases the process of building and evaluating a Logistic Regress
 ## Final Thoughts
 ### Challenges
 - Handling long reviews while maintaining context.
-- Lower recall for neutral classes in Amazon reviews.
-- Detecting nuances like sarcasm and mixed sentiments in IMDb reviews.
+- Detecting nuances like sarcasm and mixed sentiments in reviews.
 
 ### Next Steps
 - Experiment with more complex models like SVM and Random Forest.
@@ -74,8 +62,8 @@ This project showcases the process of building and evaluating a Logistic Regress
 ## How to Run This Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/sentiment-analysis-project.git
-   cd sentiment-analysis-project
+   git clone https://github.com/yourusername/imdb-sentiment-analysis.git
+   cd imdb-sentiment-analysis
    ```
 2. **Install Dependencies**:
    Ensure Python 3 and pip are installed.
